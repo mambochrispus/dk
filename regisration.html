@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>registration form</title>
+        <style>
+            body, html {
+  height: 100%;
+}
+           .reg{
+                color: red;
+                font-weight: bold;
+                font-size: 30px;
+                margin-top: 30px;
+            }
+            .table{
+                font-size: 25px;
+                color: blue;
+                border-color: red;
+                background-color: antiquewhite;
+            }
+            .body{
+                background-repeat: no-repeat;
+            }
+            .footer{
+                color: brown;
+                text-align: center;
+                font-size: 25px;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+            }
+            .under{
+                color: black;
+                font-weight: 15px;
+            }
+        </style>
+    </head>
+    <body bgcolor="grey">
+        <form name="form">
+<center><h2 class="reg"><u class="under">Registration Form</u></h2></center>
+<table align="center" border="1" class="table">
+<tr>
+    <td>Username:</td>
+    <td><input type="text" placeholder="Username."></td>
+</tr>
+<tr>
+    <td>Name:</td>
+    <td><input type="text" placeholder="Name"></td>
+</tr>
+<tr>
+    <td>Gender</td>
+    <td><input type="radio" name="Gen">Male <input type="radio" name="Gen">Female</td> 
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password" placeholder="Pass"></td>
+    </tr>
+    <tr>
+        <td> Confirm Password</td>
+        <td><input type="password" placeholder="Pass"></td>
+    </tr>
+    <tr>
+        <td>Branch:</td>
+        <td><select  name="Select">
+            <option>...Bank Name</option>
+            <option>KCB</option>
+            <option>EQUITY</option>
+            <option>NATIONAL BANK</option>
+            <option>ABSA</option>
+        </td>
+    </tr>
+    <tr>
+        <td>Hobbies</td>
+        <td><select  name="Select">
+            <option>..... Hobbies .....</option>
+            <option>Soccer</option>
+            <option>Hand Ball</option>
+            <option>Volley Ball</option>
+            <option>Cricket</option>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><textarea name="Address" rows="4" cols="21"></textarea></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="file:///C:/Users/Customers%202/Desktop/sample/login.html"><input type="button" value="submit"></a>
+        </td>
+        <td><input type="reset" name="Reset" value="Reset"></td>
+    </tr>
+    </table>
+</form>
+<footer class="footer">@Copyright Chrispus 2023</footer>
+    </body>
+</html>
